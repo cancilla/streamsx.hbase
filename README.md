@@ -30,7 +30,7 @@ The toolkit uses maven (http://maven.apache.org/). Maven will d
       * pom-v094.xml: HBASE 0.94, hadoop 1
       * pom-v096-hadoop1.xml, HBASE 0.96, hadoop 1
       * pom-v096-hadoop2.xml, HBASE 0.96, hadoop 2
-  copy the correct file for your HBASE and Hadoop install to pom.xml
+      * copy the correct file for your HBASE and Hadoop install to pom.xml
 * run ant at the top level.  This will build the toolkit, but also download all the necessary jars into opt/downloaded.  These jars are used at toolkit build time, but also at the toolkit runtime.
 
 ##Configuration
